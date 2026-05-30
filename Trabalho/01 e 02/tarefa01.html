@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trabalho 1 e 2 </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+        </header>
+
+        <!-- EXERCÍCIO 1 -->
+        <section class="card">
+
+            <h2>1 - Encontre o Triângulo</h2>
+
+            <div class="campo">
+                <label for="lado1">Lado X</label>
+                <input type="number" id="lado1">
+            </div>
+
+            <div class="campo">
+                <label for="lado2">Lado Y</label>
+                <input type="number" id="lado2">
+            </div>
+
+            <div class="campo">
+                <label for="lado3">Lado Z</label>
+                <input type="number" id="lado3">
+            </div>
+
+            <button onclick="verificarTriangulo()">
+                Verificar
+            </button>
+
+            <p id="resultadoTriangulo"></p>
+
+        </section>
+
+
+        <!-- EXERCÍCIO 2 -->
+        <section class="card">
+
+            <h2>2 - Calculadora IMC</h2>
+
+            <div class="campo">
+                <label for="peso">Peso (kg)</label>
+                <input type="number" id="peso">
+            </div>
+
+            <div class="campo">
+                <label for="altura">Altura (m)</label>
+                <input type="number" id="altura" step="0.01">
+            </div>
+
+            <button onclick="calcularIMC()">
+                Calcular IMC
+            </button>
+
+            <p id="resultadoIMC"></p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

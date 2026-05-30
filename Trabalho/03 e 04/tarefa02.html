@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04 e 05 </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Exercício 3 -->
+        <section class="card">
+            <h2>Calculadora de Impostos</h2>
+
+            <label>Ano do veículo:</label>
+            <input type="number" id="ano">
+
+            <label>Valor da tabela:</label>
+            <input type="number" id="valor">
+
+            <button onclick="calcularImposto()">
+                Calcular Imposto
+            </button>
+
+            <div id="resultadoImposto"></div>
+        </section>
+
+
+        <!-- Exercício 4 -->
+        <section class="card">
+
+    <h2>Calculadora de Salário</h2>
+
+    <label>Salário atual:</label>
+    <input type="number" id="salario">
+
+    <label>Código do cargo:</label>
+    <input type="number" id="codigo">
+
+    <button onclick="calcularSalario()">
+        Calcular
+    </button>
+
+    <div id="resultadoSalario"></div>
+
+</section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

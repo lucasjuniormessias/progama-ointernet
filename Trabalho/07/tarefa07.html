@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistemas de Vendas</title>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th>Roupas</th>
+            <th>Valor</th>
+        </tr>
+       <tr>
+        <th>Camiseta Oversized</th>
+        <td>R$ 79,90</td>
+       </tr>
+       <tr>
+        <th>Calça Jeans</th>
+        <td>R$ 149,90</td>
+       </tr>
+       <tr>
+        <th>Moletom</th>
+        <td>R$ 199,90</td>
+       </tr>
+       <tr>
+        <th>Jaqueta Jeans</th>
+        <td>R$ 249,90</td>
+       </tr>
+        <tr>
+        <th>Bermuda Cargo</th>
+        <td>R$ 89,90</td>
+       </tr>
+        <tr>
+        <th>Tênis Casual</th>
+        <td>R$ 299,90</td>
+       </tr>
+        <tr>
+        <th>Boné</th>
+        <td>R$ 59,90</td>
+       </tr>
+       <tr>
+        <th>Camisa Social</th>
+        <td>R$ 129,90</td>
+       </tr>
+    </table>
+
+        <label>Forma de pagamento:</label>
+        <select id="pagamento">
+        <option value=""></option>
+        <option value="a">À vista em dinheiro ou cheque</option>
+        <option value="b">À vista no cartão de crédito</option>
+        <option value="c">Em duas vezes</option>
+        </select>
+        <input id="roupa" type="text">
+        <button id="valortotal" onclick="calcular()">Quanto a pagar</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
